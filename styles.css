@@ -1,0 +1,69 @@
+/* Base Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header, footer, article {
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+/* Advanced Styling */
+figure {
+    text-align: center;
+}
+
+figcaption {
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header, footer, article {
+        margin: 10px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+}
